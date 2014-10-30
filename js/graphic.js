@@ -9,8 +9,8 @@ var key = "1APSjHWL_Go9IUp_X1blZq1iwRFQGagNgkqoJBcmT_qE";
 //
 var columns = [ 
     { "data": "county", "title": "County*" },
-    { "data": "year2008", "title": "2008" },
-    { "data": "year2009", "title": "2009" },
+    // { "data": "year2008", "title": "2008" },
+    // { "data": "year2009", "title": "2009" },
     { "data": "year2010", "title": "2010" },
     { "data": "year2011", "title": "2011" },
     { "data": "year2012", "title": "2012" },
