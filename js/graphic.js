@@ -25,7 +25,6 @@ $(document).ready(function() {
         key: key,
         callback: function(data, tabletop) { 
             writeTable(data); //call up datatables function
-            console.log(data);
             }, 
         simpleSheet: true,
         debug: false
@@ -43,7 +42,7 @@ $(document).ready(function() {
         $("#mySelection").DataTable({
             "data": data, //var where data is
             "columns": columns, //call up column object
-            //"order":[[3, "asc"]], //order on 3rd column
+            "order":[[5, "desc"]], //order on 3rd column
             "pagingType": "simple" //no page numbers
             });
         }
